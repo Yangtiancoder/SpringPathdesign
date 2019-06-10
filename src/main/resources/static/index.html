@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>路径规划</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="buttonGroup">
+            <button class="btn" id="getMap">生成Map</button>
+            <!-- <button class="btn" id="createRandom">随机生成MAP</button> -->
+            <button class="btn" id="initCargo">初始化货物</button>
+            <button class="btn" id="moveCargo">运动展示</button>
+            <!-- <button class="btn" id="showBorder">显示网格</button> -->
+
+        </div>
+        <p>说明: 0黑色为障碍物 1绿色通道 2红色起重机 3黄色离舰点</p>
+       
+        <h1>First Floor</h1>
+        <ul id="map1" class="map"></ul>
+        <h1>Second Floor</h1>
+        <ul id="map2" class="map"></ul>
+        <h1>Third Floor</h1>
+        <ul id="map3" class="map"></ul>
+
+        <p class="mapCode"></p>
+    </div>
+
+
+    <script src="./jquery-3.3.1.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
